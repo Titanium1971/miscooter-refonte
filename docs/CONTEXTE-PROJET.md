@@ -19,8 +19,13 @@
 - **Site :** artimonbike.com
 - **Activité :** Location vélos électriques Marseillan
 - **Adresse :** Quai de Toulon, Zone Technique du Port, 34340 Marseillan
-- **SEO :** Exemplaire (Schema.org complet, 4.6/5 - 89 avis)
+- **SEO :** Exemplaire (Schema.org complet, **4.6/5 - 174 avis**)
 - **Performance :** Optimisée (React SPA, Vercel)
+
+### Miscooter - État Google Business
+- **Avis actuels :** **4.4/5 (68 avis)**
+- **Adresse actuelle :** À vérifier/transférer vers Marseillan
+- **Asset majeur :** Crédibilité déjà établie (68 avis = excellente base)
 
 ---
 
@@ -137,8 +142,8 @@ Future location vacances
 ### Cross-selling digital
 - **Sur Artimon Bike :** Lien "Acheter votre vélo → Miscooter.fr"
 - **Sur Miscooter :** Bandeau "Essayez avant d'acheter à Marseillan"
-- **Avis croisés :** Les 89 avis Artimon bénéficient à Miscooter (même adresse)
-- **Google Business :** Un seul établissement "Artimon Bike & Miscooter"
+- **Avis combinés :** 174 avis Artimon + 68 avis Miscooter = **242 avis totaux** (crédibilité massive)
+- **Google Business :** **2 établissements distincts** (double visibilité locale optimale)
 
 ---
 
