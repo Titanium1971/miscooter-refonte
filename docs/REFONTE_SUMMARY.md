@@ -1,7 +1,7 @@
 # Refonte Miscooter — Point global
 *Publié le 10 février 2026 | Temps de lecture : 4 min*
 
-![Refonte Miscooter — Showroom Marseillan](https://images.unsplash.com/photo-1502904550040-7534597429ae?w=1200&h=600&fit=crop)
+![Refonte Miscooter — Showroom Marseillan](/miscooter-refonte/assets/images/header_etang.jpg)
 
 ---
 

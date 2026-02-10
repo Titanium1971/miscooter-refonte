@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Demo Produits - Miscooter × Viketory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+:root{--color-primary:#FF6B35;--color-accent:#0077CC;--text:#0f1720;--muted:#6b7280;--bg:#ffffff;--radius:8px;--font-stack:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial}
+body{font-family:var(--font-stack);background:#f7fafc;color:var(--text);margin:0;padding:24px}
+.header{max-width:1100px;margin:0 auto 18px;padding:12px 20px;background:linear-gradient(90deg,var(--color-primary),var(--color-accent));color:#fff;border-radius:10px}
+.container{max-width:1100px;margin:0 auto;background:var(--bg);padding:20px;border-radius:12px;box-shadow:0 8px 30px rgba(16,24,40,0.06)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{display:flex;gap:16px;padding:14px;border-radius:10px;border:1px solid #eef2f7;align-items:center}
+.card img{width:160px;height:110px;object-fit:cover;border-radius:8px}
+.card .meta{flex:1}
+.title{font-size:1.1rem;font-weight:700;margin:0}
+.price{color:var(--color-primary);font-weight:700}
+.badge{background:linear-gradient(90deg,var(--color-primary),var(--color-accent));color:#fff;padding:6px 10px;border-radius:999px;font-weight:600;font-size:0.8rem}
+.btn{padding:8px 12px;border-radius:8px;border:none;cursor:pointer;font-weight:600}
+.btn.primary{background:var(--color-primary);color:#fff}
+.specs{color:var(--muted);font-size:0.9rem}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1 style="margin:0">Démonstration : catalogue Viketory (exemple)</h1>
+    <div style="margin-top:6px;font-size:0.95rem;opacity:0.95">Ouvre ce fichier localement pour voir le rendu : <code>demo_products.html</code></div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+      <!-- Product 1 -->
+      <div class="card">
+        <img src="/miscooter-refonte/assets/images/product1.jpg" alt="Viketory VTT X">
+        <div class="meta">
+          <div class="title">Viketory VTT X</div>
+          <div class="specs">VTT électrique - Autonomie 80 km • Moteur 250W • Poids 22 kg</div>
+          <div style="margin-top:8px"><span class="price">2 199 €</span> <span style="margin-left:10px" class="badge">Essai Marseillan</span></div>
+        </div>
+        <div><button class="btn primary">Voir</button></div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="card">
+        <img src="/miscooter-refonte/assets/images/product2.jpg" alt="Viketory Urban 1">
+        <div class="meta">
+          <div class="title">Viketory Urban 1</div>
+          <div class="specs">Urbain - Autonomie 60 km • Poids 18.5 kg • Batterie 48V</div>
+          <div style="margin-top:8px"><span class="price">1 499 €</span> <span style="margin-left:10px" class="badge">Retrait Marseillan</span></div>
+        </div>
+        <div><button class="btn primary">Voir</button></div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="card">
+        <img src="/miscooter-refonte/assets/images/product3.jpg" alt="Viketory Fat 1">
+        <div class="meta">
+          <div class="title">Viketory Fat 1</div>
+          <div class="specs">Fatbike - Autonomie 70 km • Poids 26 kg • Motorisation renforcée</div>
+          <div style="margin-top:8px"><span class="price">2 799 €</span> <span style="margin-left:10px" class="badge">Essai & SAV</span></div>
+        </div>
+        <div><button class="btn primary">Voir</button></div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="card">
+        <img src="/miscooter-refonte/assets/images/product4.jpg" alt="Viketory Fold 1">
+        <div class="meta">
+          <div class="title">Viketory Fold 1 (pliable)</div>
+          <div class="specs">Pliable - Autonomie 55 km • Poids 16 kg • Idéal trajets urbains</div>
+          <div style="margin-top:8px"><span class="price">1 199 €</span> <span style="margin-left:10px" class="badge">Retrait Marseillan</span></div>
+        </div>
+        <div><button class="btn primary">Voir</button></div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:18px;text-align:center">
+      <a href="file:///Users/cyril/clawd/miscooter-refonte/demo_product.html">Voir la page produit détaillée (exemple)</a>
+    </div>
+  </div>
+</body>
+</html>
