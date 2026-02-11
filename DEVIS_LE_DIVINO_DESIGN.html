@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Devis - Le Divino (Design)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#FF6B35;--accent-dark:#D95A21;--muted:#6b7280;--bg:#ffffff;--card:#fbfcfd;--radius:10px}
+    body{font-family:'Poppins',system-ui,Arial,sans-serif;background:#f3f6f9;margin:0;color:#0f1720}
+    .sheet{max-width:900px;margin:28px auto;padding:28px;background:linear-gradient(180deg,#fff,#fbfdff);border-radius:12px;box-shadow:0 12px 40px rgba(16,24,40,0.08)}
+    header{display:flex;justify-content:space-between;align-items:center}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:76px;height:76px;background:var(--accent);border-radius:8px;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{font-size:1.15rem;margin:0}
+    .meta{color:var(--muted);font-size:0.95rem}
+    .client-block, .items, .summary{margin-top:22px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .card{background:var(--card);padding:12px;border-radius:8px}
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    th,td{padding:10px;border-bottom:1px solid #e6eef6;text-align:left}
+    th{background:#f7fbff;color:var(--muted);font-weight:600}
+    tfoot td{border-top:2px solid #e6eef6;font-weight:700}
+    .price{color:var(--accent);font-weight:700}
+    .btn{display:inline-block;padding:10px 14px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}
+    footer{margin-top:28px;color:var(--muted);font-size:0.9rem}
+    .right{text-align:right}
+    @media (max-width:700px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <div class="brand">
+        <div class="logo">LD</div>
+        <div>
+          <h1>Devis — Site Web & Services</h1>
+          <div class="meta">Restaurant Le Divino — Devis personnalisé</div>
+        </div>
+      </div>
+      <div class="meta right">
+        <div>Devis N° DIV-2026-002</div>
+        <div>Date : 11 février 2026</div>
+        <div>Validité : 30 jours</div>
+      </div>
+    </header>
+
+    <div class="grid client-block">
+      <div class="card">
+        <strong>Client</strong>
+        <div>Restaurant Le Divino</div>
+        <div>5 Place Jean Jaurès, 34300 Agde</div>
+        <div>Tél : 04 48 17 78 75</div>
+        <div>Email : contact@ledivino-agde.fr</div>
+      </div>
+      <div class="card">
+        <strong>Prestataire</strong>
+        <div>CANON Cyril — CC Développement</div>
+        <div>27 Rue Basse, 34300 Agde</div>
+        <div>Tél : 06 20 26 21 53</div>
+        <div>Email : canon@ccdeveloppement.eu</div>
+      </div>
+    </div>
+
+    <section class="items">
+      <h3>Prestations incluses (base du projet)</h3>
+      <table>
+        <thead>
+          <tr><th>Service</th><th class="right">Détail</th><th class="right">Prix HT</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Site web complet (5 pages + dashboard)</td><td class="right">Frontend public, gestion menu, réservations</td><td class="right">1 000,00 €</td></tr>
+          <tr><td>Module 1 — Enrichissements web</td><td class="right">Liens cliquables, Open Graph, favicons</td><td class="right">200,00 €</td></tr>
+          <tr><td>Module 2 — Avis Google</td><td class="right">API Google My Business, carousel avis</td><td class="right">550,00 €</td></tr>
+          <tr><td>Module 3 — Google Maps Interactive</td><td class="right">Carte intégrée, popup infos</td><td class="right">280,00 €</td></tr>
+          <tr><td>Module 4 — SEO Locale complète</td><td class="right">Schema.org, sitemap, GSC</td><td class="right">750,00 €</td></tr>
+          <tr><td>Module 5 — Générateur d'affiches IA</td><td class="right">Templates DALL·E3, export PNG/PDF</td><td class="right">1 400,00 €</td></tr>
+          <tr><td>Module 6 — Panneau lumineux (soft+hard)</td><td class="right">Dashboard + panneau LED+installation</td><td class="right">5 600,00 €</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="2" class="right">Total HT</td><td class="right">9 780,00 €</td></tr>
+          <tr><td colspan="2" class="right">TVA 20%</td><td class="right">1 956,00 €</td></tr>
+          <tr><td colspan="2" class="right">Total TTC</td><td class="right price">11 736,00 €</td></tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section class="summary">
+      <div class="grid">
+        <div class="card">
+          <strong>Recommandation</strong>
+          <p>Package Pro recommandé : Site + Modules 1,2,3,4 pour une visibilité locale maximale.</p>
+        </div>
+        <div class="card right">
+          <strong>Délai estimé</strong>
+          <p>Phase 1 (Site + Modules 1,3,4) : 2-3 semaines<br>Module 6 : 18-25 jours (livraison matériel incluse)</p>
+        </div>
+      </div>
+
+      <div style="margin-top:14px;display:flex;justify-content:space-between;align-items:center">
+        <div class="meta">Modalités : acompte 40% à la commande, solde à la livraison</div>
+        <a class="btn" href="#">Accepter ce devis</a>
+      </div>
+    </section>
+
+    <footer>
+      <div>Conditions générales : voir document joint. Support technique inclus 3 mois, corrections bugs 6 mois.</div>
+      <div style="margin-top:6px;color:var(--muted)">Merci de votre confiance — CC Développement</div>
+    </footer>
+  </div>
+</body>
+</html>
