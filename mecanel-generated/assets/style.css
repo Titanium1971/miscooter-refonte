@@ -1,0 +1,11 @@
+:root{--accent:#FF6B35;--bg:#fff;--muted:#6b7280}
+body{font-family:Inter,Helvetica,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+.container{max-width:960px;margin:0 auto;padding:18px}
+.site-header{background:var(--accent);color:#fff;padding:18px}
+.site-header h1{margin:0}
+.cta{background:#fff;color:var(--accent);padding:8px 12px;border-radius:6px;text-decoration:none}
+.grid{display:flex;gap:8px}
+.grid img{width:32%;border-radius:6px}
+.form-reserv label{display:block;margin-bottom:8px}
+.btn{background:var(--accent);color:#fff;padding:10px 12px;border:none;border-radius:6px}
+footer{background:#f7f7f7;padding:12px;margin-top:18px;text-align:center;color:var(--muted)}
